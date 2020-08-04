@@ -23,6 +23,7 @@ def find_the_cheese(array)
   end  
   
   array.each do |element|
+    puts element
     if cheese_types.include?(element)
       return element
     end
