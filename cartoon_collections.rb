@@ -8,7 +8,8 @@ def summon_captain_planet(array)
   words = []
   
   array.map do |word|
-    words << "word.upcase"
+    words << word.capitalize + "!"
+  end
 end
 
 def long_planeteer_calls# code an argument here
