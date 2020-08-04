@@ -19,7 +19,7 @@ def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
   
   the_numbers = [4,8,15,16,23,42]
-  if the_numbers.include?(42)
+  if cheese_types.include?("cheddar")
     puts "hello"
       
   
