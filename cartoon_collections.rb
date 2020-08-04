@@ -8,7 +8,7 @@ def summon_captain_planet(array)
   words = []
   
   array.map do |word|
-    words << "#{word}".capitalize + "!"
+    words.push(word.capitalize + "!")
   end
 end
 
