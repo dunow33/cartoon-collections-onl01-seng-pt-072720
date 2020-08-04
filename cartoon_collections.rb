@@ -18,9 +18,8 @@ def find_the_cheese(array)
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
   
-  if "test".include?("te") || "test".include?("fail")
-    puts "true"
-  end
+  the_numbers = [4,8,15,16,23,42]
+  puts the_numbers.include?(42)
       
   
   array.each do |element|
