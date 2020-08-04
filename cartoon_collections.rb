@@ -20,7 +20,7 @@ def find_the_cheese(array)
   
   if cheese_types.include?("cheddar")
     puts "hello"
-      
+  end  
   
   array.each do |element|
     if cheese_types.include?(element)
